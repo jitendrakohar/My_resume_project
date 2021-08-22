@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* body{
+    margin:0px;
+    font-size:12px;
+} */
+/* creating a header and using a background image here */
+header{
+    padding-top:0px;
+    background-image:url("banner.png ") ;
+    width:100%;
+        height:60vh;
+        background-size:cover;
+        background-position:center;
+    background-attachment:fixed;
+
+}
+/* Managing a navigation menu */
+.horizontal-list{
+    
+    padding-left:0px;
+   
+}
+.horizontal-list li{
+    display: inline-block;
+ margin:0px 8px 8px 0px;  
+ text-decoration: none; 
+}
+.horizontal-list li a{
+    
+    font-size:1.3rem;
+    /* text-transform: uppercase; */
+color: white;
+text-decoration: none;
+/* transition:color 2s,border-bottom 4s; */
+}
+.text-center{
+    text-align: center;
+}
+.horizontal-list li a:hover{
+    color: red;
+    border-bottom: 1px solid white;
+    text-decoration:none;
+    
+    }
+    .socialMediaIconAndText{
+        color:rgb(184, 218, 211);
+        font-weight: 700;
+        text-align: center;
+        letter-spacing:0.2rem;
+        margin-top: 4rem;
+    }
+    .myName{
+      color:azure;
+      text-transform:capitalize;
+    }
+     .socialMediaIcon{
+         color:red;
+        padding-top: 110px;
+        text-align:center;
+        word-spacing: 30px;
+       
+    }
+    .socialMediaIcon a img{
+        width: 30px;
+        height: 30px;
+    }
+    .socialMediaIcon a:hover{
+        border:none;
+        /* border: 1px solid green; */
+        border-radius:50%;
+        background-color: rgb(190, 174, 174);
+        box-shadow:3px 12px 36px 36px rgb(190, 174, 174);
+    }
+    #about{
+        width: 100%;
+        height: auto;
+        position: relative;
+    } 
+    .my-image{
+        height:12rem;
+        width: 12rem;
+        margin:auto;
+        margin-top: -6rem;
+        
+    }
+    .my-image img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        border: 4px solid rgb(110, 187, 151);
+      
+    }
+    .about-me{
+        margin:auto;
+        width:40%;
+        height: auto;
+        font-size: 15px;
+        box-sizing: border-box;
+        border: 1px solid gray;
+        font-family: sans-serif;
+        word-break:break-all;
+    }
+
+    section{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        height: auto;
+    }
+
+    section:nth-child(2n+1){
+ background-color: antiquewhite;
+    }
+    section:nth-child(2n){
+        background-color: aquamarine;
+
+    }
+    .section-heading{
+        
+        display: flex;
+        margin-top:0px;
+        align-items: baseline;
+        justify-content: center;
+        flex-wrap: wrap; 
+        margin-bottom: 25px;
+    }
+    .mb75x{
+        margin-bottom:75px;
+    }
+    .skills-display{
+        /* width: 70%; */
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items:space-around;
+    }
+
+    /* skills progress of c++  */
+    .skills-progress-c{
+        width: 100mm;
+        height:4rem;
+        background-color:white;
+        border-radius: 5rem;
+        text-align:center;
+        margin-left:5mm;
+        
+    }
+    .eighty-five-percent{
+        width:85mm;
+        height: 4rem;
+        border-radius: 20px 0px 0px 25px;
+        box-shadow: 0px 2px 1px 2px rgb(176, 236, 9);
+     }
+    .eighty-five-percent span{
+    text-shadow: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:222;    
+    color:white;
+}
+    .mb-yello{
+        background-color:yellow;
+    }
+
+    /* skills progress of html */
+    .skills-progress-html{
+        width: 100mm;
+        height:4rem;
+        background-color:white;
+        border-radius: 5rem;
+        text-align:center;
+        margin-left:5mm;
+        
+    }
+    .seventy-five-percent{
+        width:75mm;
+        height: 4rem;
+        border-radius: 20px 0px 0px 25px;
+        box-shadow: 0px 2px 1px 2px rgb(176, 236, 9);
+     }
+    .seventy-five-percent span{
+    text-shadow: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:222;    
+    color:white;
+}
+    .mb-orange{
+        background-color:orange;
+    }
+     /* skills progress of css */
+     .skills-progress-css{
+        width: 100mm;
+        height:4rem;
+        background-color:white;
+        border-radius: 5rem;
+        text-align:center;
+        margin-left:5mm;
+        
+    }
+    .Nighty-percent{
+        width:90mm;
+        height: 4rem;
+        border-radius: 20px 0px 0px 25px;
+        box-shadow: 0px 2px 1px 2px rgb(176, 236, 9);
+     }
+    .nighty-percent span{
+    text-shadow: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:222;    
+    color:white;
+}
+    .mb-green{
+        background-color:green;
+    }
+    /* skills progress of java */
+    .skills-progress-java{
+        width: 100mm;
+        height:4rem;
+        background-color:white;
+        border-radius: 5rem;
+        text-align:center;
+        margin-left:5mm;
+        
+    }
+    .ten-percent{
+        width:20mm;
+        height: 4rem;
+        border-radius: 20px 0px 0px 25px;
+        box-shadow: 0px 2px 1px 2px rgb(176, 236, 9);
+     }
+    .ten-percent span{
+    text-shadow: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:222;    
+    color:white;
+}
+    .mb-blue{
+        background-color:blue;
+    }
+    /* skills progress of git */
+    .skills-progress-git{
+        width: 100mm;
+        height:4rem;
+        background-color:white;
+        border-radius: 5rem;
+        text-align:center;
+        margin-left:5mm;
+        
+    }
+    .nighty-percent{
+        width:90mm;
+        height: 4rem;
+        border-radius: 20px 0px 0px 25px;
+        box-shadow: 0px 2px 1px 2px rgb(176, 236, 9);
+     }
+    .nighty-percent span{
+    text-shadow: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:222;    
+    color:white;
+}
+    .mb-grey{
+        
+        background-color:gray;
+    }
+    /* skills progress of javascript */
+    .skills-progress-javascript{
+        width: 100mm;
+        height:4rem;
+        background-color:white;
+        border-radius: 5rem;
+        text-align:center;
+        margin-left:5mm;
+        
+    }
+    .thirty-percent{
+        width:30mm;
+        height: 4rem;
+        border-radius: 20px 0px 0px 25px;
+        box-shadow: 0px 2px 1px 2px rgb(176, 236, 9);
+     }
+    .thiry-percent span{
+    text-shadow: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:222;    
+    color:white;
+    }
+    .mb-brown{
+        background-color:brown;
+    }
+   .flexonebyone{
+   margin: 10px;   
+}
+
+
+
+
+/* This is a experience section the additional css file is attached from here */
+.experience h1{
+    font-size: 30px;
+    text-align: center;
+
+}
+.experience>h1>span{
+    margin: 0;
+}
+.timeline{
+    align-items: center;
+    position: relative;
+    width: 89%;
+    height: fit-content;
+    margin: auto;
+    border: 3px  black;
+}
+.timeline-box{
+    word-break: break-all;
+    position: relative;
+    width: 41%;
+    
+    left: 5%;
+    
+    border: 2px solid black;
+    min-height: 150px;
+   
+    
+}
+.timeline-box::after{
+    position: absolute;
+    content:'';
+    top: 10%;
+    left:-9%;
+    width:9px;
+    height: 9px;
+    border-radius:50%;
+    background-color: red;
+    right: 0%;
+
+}
+.timeline-box:nth-child(2n)::after()
+{
+    content:'';
+    position:absolute;
+    top:5;
+    
+    }
+    
+.timeline-box:nth-child(2n){
+    left:53%;
+    /* margin-top: 4%; */
+    margin-bottom:2%;
+    margin-left: 1rem;
+} 
+.timeline-box:nth-child(2n+1){
+    margin-top: 2%;
+    margin-left: -0.5rem;
+}
+.timeline-box:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    margin-left:120.5% ;
+    top: 10%;
+
+}
+.heading::before{
+    top: 8px;
+    content:'';
+    display:inline-block;
+    height: 30px;
+    width: 40px;
+    background-image:url('skill.png');
+    background-size: contain;
+    text-transform: capitalize;
+    /* border:1px solid red; */
+    background-repeat: no-repeat;
+    
+
+}
+.timeline-box .heading{
+    margin: 1px;
+    background-color: aqua;
+}
+
+.timeline-divider{
+    position: absolute;
+    height: 93%;
+    width: 0;
+    border:3px dashed red;
+    top:-0.2%;
+    left: 50%;
+    margin-top: 3%;
+}
+.plane{
+    size: 1cm;
+    position: fixed;
+    margin-left: -1.1rem;
+    margin-top: -1%;
+    transform: rotate(90deg);                                                                                                                                                   
+}
